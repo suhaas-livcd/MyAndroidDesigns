@@ -9,7 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MotionsActivity"></activity>
+        <activity android:name=".motion.coordinatedmotion.CoordinatedActivity"></activity>
+        <activity android:name=".motion.coordinatedmotion.CurveMotionList"></activity>
+        <activity android:name=".motion.coordinatedmotion.CurvedMotionDetail"></activity>
+        <activity android:name=".motion.coordinatedmotion.MultipleChaoticElements"></activity>
+        <activity android:name=".motion.coordinatedmotion.MultipleElements"></activity>
+        <activity android:name=".motion.coordinatedmotion.SizeChange"></activity>
+
+        <activity android:name=".motion.TrimPathActivity" />
+        <activity android:name=".MotionsActivity" />
         <activity android:name=".ui.EclairActivity" />
         <activity android:name=".RippleActivity" />
         <activity
