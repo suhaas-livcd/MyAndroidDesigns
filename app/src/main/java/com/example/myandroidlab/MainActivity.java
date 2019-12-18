@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import com.example.ImmersiveImageActivity;
 import com.example.myandroidlab.ui.EclairActivity;
 
 public class MainActivity extends AppCompatActivity {
@@ -37,4 +38,13 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
+    public void openTypographyActivity(View view) {
+        Intent intent = new Intent(MainActivity.this, TypographyActivity.class);
+        startActivity(intent);
+    }
+
+    public void openImagesActivity(View view) {
+        Intent intent = new Intent(MainActivity.this, ImmersiveImageActivity.class);
+        startActivity(intent);
+    }
 }

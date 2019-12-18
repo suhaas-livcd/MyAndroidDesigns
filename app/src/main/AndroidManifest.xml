@@ -9,13 +9,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".motion.coordinatedmotion.CoordinatedActivity"></activity>
-        <activity android:name=".motion.coordinatedmotion.CurveMotionList"></activity>
-        <activity android:name=".motion.coordinatedmotion.CurvedMotionDetail"></activity>
-        <activity android:name=".motion.coordinatedmotion.MultipleChaoticElements"></activity>
-        <activity android:name=".motion.coordinatedmotion.MultipleElements"></activity>
-        <activity android:name=".motion.coordinatedmotion.SizeChange"></activity>
-
+        <activity android:name="com.example.ImmersiveImageActivity"></activity>
+        <activity android:name=".TypographyActivity" />
+        <activity android:name=".motion.TransisitionDemoActivity" />
+        <activity android:name=".motion.TickCrossActivity" />
+        <activity android:name=".motion.InterpolationActivity" />
+        <activity android:name=".motion.HeartFillActivity" />
+        <activity android:name=".motion.coordinatedmotion.CoordinatedActivity" />
+        <activity android:name=".motion.coordinatedmotion.CurveMotionList" />
+        <activity android:name=".motion.coordinatedmotion.CurvedMotionDetail" />
+        <activity android:name=".motion.coordinatedmotion.MultipleChaoticElements" />
+        <activity android:name=".motion.coordinatedmotion.MultipleElements" />
+        <activity android:name=".motion.coordinatedmotion.SizeChange" />
         <activity android:name=".motion.TrimPathActivity" />
         <activity android:name=".MotionsActivity" />
         <activity android:name=".ui.EclairActivity" />
