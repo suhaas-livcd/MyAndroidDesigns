@@ -17,5 +17,9 @@ jobs:
       uses: actions/setup-java@v1
       with:
         java-version: 1.8
+    - name: Making gradle executable
+      run:  chmod +x ./gradlew
+    - name: Making gradle executable
+      run:  git update-index --chmod=+x ./gradlew
     - name: Build with making Gradle executable
-      run:  git update-index --chmod=+x gradlew
+      run: ./gradlew build
